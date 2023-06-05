@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <i class="fa-solid fa-code icons"></i>
+        <h1 class="logo">Albus</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#tentang">About</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Albus Technology Here!</p>
+            <p class="description">Im IT from ITERA</p>
+            <img src="assets/foto/foto-profil.jpg" alt="" class="img-foto">
+        </div>
+        <div class="about"  id="tentang">
+            <h1>Tentang Saya</h1>
+        </div>
+        <div class="tentang">
+            <p class="title">Saya Adalah Seorang Mahasiswa</p>
+            <p class="description">Institut Teknologi Sumatera.</p>
+        </div>
+        
+    </div>
+    <div class="kontak" id="kontak">
+        <h1>Kontak Saya</h1>
+    </div>
+    <div class="wrapper">
+        <div class="card">
+            <h1 class="title-sosmed">Whatsapp</h1>
+            <i class="fa-brands fa-whatsapp"></i>
+            <p class="description-sosmed">Albus Technology</p>
+            <button class="btn" onclick="redirWhatsapp()">FOLLOW</button>
+        </div>
+        <div class="card">
+            <h1 class="title-sosmed">Facebook</h1>
+            <i class="fa-brands fa-facebook"></i>
+            <p class="description-sosmed">Albus Technology</p>
+            <button class="btn">FOLLOW</button>
+        </div>
+        <div class="card">
+            <h1 class="title-sosmed">Github</h1>
+            <i class="fa-brands fa-github"></i>
+            <p class="description-sosmed">Albus Technology</p>
+            <button class="btn">FOLLOW</button>
+        </div>
+        <div class="card">
+            <h1 class="title-sosmed">Instagram</h1>
+            <i class="fa-brands fa-instagram"></i>
+            <p class="description-sosmed">Albus Technology</p>
+            <button class="btn" onclick="redirInstagram()">FOLLOW</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p class="title">Albus Technology Website</p>
+    </div>
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/faizzrmdhn"
+        }
+        
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6281319027707"
+        }
+    </script>
+</body>
+</html>
